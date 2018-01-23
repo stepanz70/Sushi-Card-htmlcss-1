@@ -1,25 +1,23 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+Code your first website!
 
 ### What you will make
 
-Add something here to showcase here, for example:
+Make a website about your home country.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe src="https://trinket.io/embed/html/5dad5a095e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+
 
 ### What you will learn
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level){:target="_blank"}
-
-### Additional information for educators
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
-
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+- Using an online editor to create a website made up of HTML files and a CSS file
+- Building a HTML site that has headings, paragraph text, lists and images
+- Using CSS to control the look of your website including designing a simple menu bar and changing colours, backgrounds and borders
+- Linking pages to each other and also linking to other websites
+- Creating a table that includes headings and multiple rows.
+- Using a text editor to edit and save a HTML file.
+- Using a web browser to open the HTML file and display your website.
