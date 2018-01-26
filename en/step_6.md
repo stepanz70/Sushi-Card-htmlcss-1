@@ -5,16 +5,16 @@ Let's add a picture!
 - Go to the tab named `index.html`. Find the `</main>` tag and type the following above it: 
 
 ```html
-    <img src="tito.png" alt="Tito the dog" width="100px" />
+    <img src="RunBird.jpg" alt="A funny looking bird" width="300px" />
 ```
 
 Here's what the result should look like:
     
-![Image code and picture of Tito](images/egImgCodeTito.png)
+![Image code and picture of a bird](images/egImgCode.png)
 
 Notice that this tag has extra bits of information inside it. They are called **attributes**.
 
-- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this **attribute** does. Don't delete the letters `px`!
+- Find the bit of code that says `width="300px"` and try experimenting with different numbers to see if you can figure out what this **attribute** does. Don't delete the letters `px`!
 
 --- collapse ---
 
@@ -45,7 +45,7 @@ Once you have a picture, you will **upload** the file to Trinket:
 
 ![The image icon](images/tktImageIconArrow.png)
 
-This is where you can see the pictures that can be used on your website. You should see the picture of Tito the CoderDojo dog.
+This is where you can see the pictures that can be used on your website. You should see the picture of the bird.
 
 - Click the button **Add Image** and then click **Upload**. 
 
@@ -57,7 +57,7 @@ This is where you can see the pictures that can be used on your website. You sho
 
 Your picture is uploaded and ready to use!
 
-- Go to the file index.html and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the file with your picture. Note that it might end in `.jpg` instead of `.png`!
+- Go to the file index.html and find the `<img>` tag. Change the text `RunBird.jpg` so that it exactly matches the name of the file with your picture. Note that it might end in `.png` or something else instead of `.jpg`!
 
 The text you just changed is the **attribute** called `src`. It tells the browser what file to display.
 

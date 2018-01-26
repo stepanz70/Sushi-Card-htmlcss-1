@@ -63,6 +63,8 @@ The `color` property is always for text. Here, you are setting the colour of all
   }
 ```
 
++ If you have't got any `<h1>` headings on your HTML page, add one to see how it looks. 
+
 Your heading should be orange now, with the paragraph purple as before. 
 
 ![Result of new CSS code](images/egCssColorsFonts.png)

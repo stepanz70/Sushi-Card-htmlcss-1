@@ -2,14 +2,14 @@
 
 - In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
 
-- Find the line that says `Welcome to Ireland!` and change it to your own message, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. You should see your web page updated in the right-hand panel. 
+- Find the line that says `Hello, Friend` and change it to your own message, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. You should see your web page updated in the right-hand panel. 
 
 ![HTML paragraph example](images/egFirstHtmlCode.png)
 
 - Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
 
 ```html
-  <h1>Welcome to Ireland!</h1>
+  <h1>Hello, Friend!</h1>
 ```
 
 --- collapse ---
@@ -33,12 +33,11 @@ Everything in between the `<body>` and `</body>` tags is your web page.
 - Try changing the numbers in your **heading** tags to see the different sizes you get. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the **opening** and **closing** tag so that they match.
 
 
-- Lastly, find the code for the paragraph that says `My website is about Ireland` and change it so that it looks like this:
+- Lastly, find the code for the paragraph that says `Welcome to my website about birds.` and change it so that it looks like this:
 
 ```html
   <p>
-    <em>My website</em> is about <strong>Ireland</strong>. 
-    It is going to have the following pages: Attractions, Music, Food
+    Welcome to <em>my website</em> about <strong>birds</strong>.
   </p>
 ```
 

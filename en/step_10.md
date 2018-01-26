@@ -18,15 +18,15 @@ You might be wondering why you can't change the name of the `index.html` file. `
 
 --- /collapse ---
 
-- Find the file `blank_page.html` and **copy** and **paste** all of the code from it into your new file.
+- Find the file `template.html` and **copy** and **paste** all of the code from it into your new file.
 
 --- collapse ---
 ---
 title: How to copy and paste
 ---
-- Go the the file blank\_page.html in the code panel \(by clicking on the tab with that name\). Select all of the text in the file by doing the following: Click anywhere on the code, then press and hold the `Ctrl` key \(or if you are using a Mac, the `cmd` key\) and while holding it, press the `A` key at the same time. Notice how all the text becomes highlighted.
+- Go the the file `template.html` in the code panel \(by clicking on the tab with that name\). Select all of the text in the file by doing the following: Click anywhere on the code, then press and hold the `Ctrl` key \(or if you are using a Mac, the `cmd` key\) and while holding it, press the `A` key at the same time. Notice how all the text becomes highlighted.
 
-![All the code selected in the blank_page.html file](images/egBlankPageSelectAll.png)
+![All the code selected in the template.html file](images/egBlankPageSelectAll.png)
 
 - Now, with the text selected, press and hold the `Ctrl` \(or `cmd`\) key again and then while holding it press the `C` key. This **copies** everything that was selected.
 
@@ -55,9 +55,9 @@ Now you need to make links so that you can get to each of your new pages! Let's 
 ```html
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Places to visit</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="food.html">Things to eat</a></li>
+        <li><a href="species.html">Birds to Watch</a></li>
+        <li><a href="feeding.html">Feeding Birds</a></li>
+        <li><a href="tips.html">Birdwatching Tips</a></li>
     </ul>
 ```
 

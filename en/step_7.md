@@ -4,7 +4,7 @@ YouTube provides an easy way to **embed** \(or put\) videos from it onto your we
 
 - Find a video on YouTube that you want to show on your website. 
 
-- Look for the **Share** button and click it. Select the option **Embed**.
+- Look for the **Share** button and click it. Select the option **EMBED**.
 
 You will see a text box with all the text selected \(if you accidentally unselect the text, you can select it all again by clicking on it and pressing the `Ctrl` \(or `cmd` on a Mac\) and `A` keys together on your keyboard\). 
 

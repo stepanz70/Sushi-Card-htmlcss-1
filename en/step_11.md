@@ -22,10 +22,10 @@ Many websites have a **navigation** menu to make it easy to get around the pages
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Attractions</a></li>
-            <li><a href="music.html">Music</a></li>
-            <li><a href="food.html">Food</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="species.html">Birds to Watch</a></li>
+                <li><a href="feeding.html">Feeding Birds</a></li>
+                <li><a href="tips.html">Birdwatching Tips</a></li>
             </ul>
         </nav>
     </header>

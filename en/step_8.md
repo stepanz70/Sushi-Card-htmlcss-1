@@ -6,10 +6,10 @@ On this card you will learn how to turn a list of items, such as "unicorns, robo
 
 ```html
     <ul>
-        <li>Cows</li>
-        <li>Sheep</li>
-        <li>Foxes</li>
-        <li>Bats</li>
+        <li>Blackbird</li>
+        <li>Robin</li>
+        <li>Hen Harrier</li>
+        <li>Puffin</li>
     </ul>
 ```
 
@@ -27,12 +27,12 @@ How about if you wanted a numbered list? It's almost the same, but instead of `u
 
 ```html
     <p>
-        My favourite things to eat and drink in Ireland are:
+        Some of the robin's favourite things to eat are:
     </p>
     <ol>
-        <li>Tea</li>
-        <li>Crisp sandwiches</li>
-        <li>Sausages</li>
+        <li>Beetles</li>
+        <li>Worms</li>
+        <li>Fruit</li>
     </ol>
 ```
 

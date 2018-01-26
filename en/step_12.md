@@ -51,16 +51,16 @@ How about making the menu change to to tell you which page you are on? This part
 
 - Start with the homepage. Go to the `index.html` file. In the list, remove the link tags before and after the word `Home`, so that the **list item** for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
 
-- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item, and so on.
+- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `species.html` file, I've removed the link tags in the `Birds to Watch` list item, and so on.
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Attractions</a></li>
-            <li>Music</li>
-            <li><a href="food.html">Food</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li>Birds to Watch</li>
+                <li><a href="feeding.html">Feeding Birds</a></li>
+                <li><a href="tips.html">Birdwatching Tips</a></li>
             </ul>
         </nav>
     </header>
