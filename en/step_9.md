@@ -23,7 +23,7 @@ That's because the `href` attribute is empty at the moment. It needs to contain 
 - In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+  <a href="https://en.wikipedia.org/wiki/Bird_conservation">Click here</a>
 ```
 
 You just created your first link! Click on it to see if it works now.
@@ -41,8 +41,8 @@ Trinket has trouble with some web addresses. You can try URLs of websites other 
 - Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">
-      <img src="tito.png" alt="Tito the dog" width="100px" />
+  <a href="https://en.wikipedia.org/wiki/Bird_conservation">
+      <img src="RunBird.jpg" alt="A bird running" width="200px" />
   </a>
 ```
 
@@ -52,7 +52,7 @@ You can put a link into other elements of your webpage too, such as in a paragra
 
 ```html
   <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
+    <a href="https://en.wikipedia.org/wiki/Bird_conservation">Click here</a> to read about bird conservation on Wikipedia.
   </p>
 ```
 
@@ -61,6 +61,32 @@ You can put a link into other elements of your webpage too, such as in a paragra
 ## Challenge: put a link into a list
 
 - See if you can make a list that contains a link inside one of the list items.
+
+--- hints ---
+
+--- hint ---
+
+To turn a list item `<li> </li>` into a link, put all of it, including the tags, in between a pair of link tags `<a> </a>` and add the `href` attribute as you've done above.
+
+--- /hint ---
+
+--- hint ---
+
+In the following list, the `Hen Harrier` list item has been turned into a link.
+
+```html
+    <ul>
+        <li>Blackbird</li>
+        <li>Robin</li>
+        <a href="https://en.wikipedia.org/wiki/Hen_harrier"><li>Hen Harrier</li></a>
+        <li>Puffin</li>
+    </ul>
+```
+
+--- /hint ---
+
+--- /hints ---
+
 
 --- /challenge ---
 

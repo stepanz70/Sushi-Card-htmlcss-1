@@ -49,7 +49,7 @@ Each rule inside the curly braces is made up of:
   }
 ```
 
-Look at how this has changed the webpage. 
++ Look at how this has changed the webpage. 
 
 The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
 
