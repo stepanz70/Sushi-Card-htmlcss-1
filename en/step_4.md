@@ -1,43 +1,44 @@
-## Your first web page!
+## Your first webpage!
 
 - In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
 
-- Find the line that says `Hello, Friend` and change it to your own message, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. You should see your web page updated in the right-hand panel. 
+- Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. You should see your webpage update in the right-hand panel. 
 
 ![HTML paragraph example](images/egFirstHtmlCode.png)
 
 - Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
 
 ```html
-  <h1>Hello, Friend!</h1>
+  <h1>Welcome to Ireland!</h1>
 ```
 
 --- collapse ---
 ---
 title: HTML and tags explained
 ---
-**HTML** is the code that makes a web page.
+**HTML** is the code that makes a webpage.
 
-The `.html` in the filename tells the browser that the file is a web page, so it looks for the tags telling it what to display. 
+The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
 
-HTML **tags** define different pieces of a page, for example paragraphs and headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
+HTML tags such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
 
-### Why do you need two tags? 
-You have an **opening** and a **closing** tag to tell the browser where things **start** and **end**. 
-So for a paragraph, the opening `<p>` tag says "here comes some text that I want you to display as a paragraph". The closing `</p>` tag tells the browser where the paragraph ends. 
-Everything in between the `<body>` and `</body>` tags is your web page. 
-- Notice how the **closing** tag always has a forward slash, `/`.
+### Why do I need two tags? 
+You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends. 
+
+Everything in between the `<body>` and `</body>` tags is your webpage. 
+
+- Notice how the closing tag **always** has a forward slash `/`.
   
 --- /collapse ---
 
-- Try changing the numbers in your **heading** tags to see the different sizes you get. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the **opening** and **closing** tag so that they match.
+- Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
 
-
-- Lastly, find the code for the paragraph that says `Welcome to my website about birds.` and change it so that it looks like this:
+- Find the code for the paragraph that says `My website is about Ireland.` and change it so that it looks like this:
 
 ```html
   <p>
-    Welcome to <em>my website</em> about <strong>birds</strong>.
+    <em>My website</em> is about <strong>Ireland</strong>. 
+    It is going to have the following pages: Attractions, Music, Food
   </p>
 ```
 
@@ -46,16 +47,15 @@ Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
 ![Example of HTML tags](images/egFirstTags.png)
 
 --- challenge ---
-## Challenge: Add some more text of your own
+## Challenge: add some more text of your own
 
-- Try adding a new paragraph or heading to your page using some of these tags.
+- Try adding a new paragraph or heading to your page using some of the tags you've learned about.
 
 --- hints ---
 
 --- hint ---
-When you want to put text on a page, you need to put it in between two **tags** that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser it is a new paragraph of text. The `<h1> </h1>` tags tell it that the text is a heading.
+When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
 
-A **browser** is the program you use to look at websites, for example Chrome or Firefox.
 --- /hint ---
 
 --- hint ---
@@ -67,7 +67,7 @@ The code for paragraphs looks like this:
 
   <p>This is another paragraph.
   Everything in between one set of p tags is 
-  displayed together in one long line on the web page.</p>
+  displayed together in one long line on the webpage.</p>
 ```
 
 --- /hint ---
@@ -88,10 +88,4 @@ Headings will normally be displayed bigger or bolder than the paragraphs.
 
 --- /challenge ---
 
-Congratulations, you've built your first web page! On the next card you'll find out how to control how it looks.
-
-
-
-
-
-
+Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
