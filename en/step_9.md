@@ -42,7 +42,7 @@ Trinket has trouble with some web addresses. You can try URLs of websites other 
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Bird_conservation">
-      <img src="RunBird.jpg" alt="A bird running" width="200px" />
+      <img src="barn-owl.jpg" alt="A barn owl" width="200px" />
   </a>
 ```
 
@@ -76,10 +76,10 @@ In the following list, the `Hen Harrier` list item has been turned into a link.
 
 ```html
     <ul>
-        <li>Blackbird</li>
-        <li>Robin</li>
-        <a href="https://en.wikipedia.org/wiki/Hen_harrier"><li>Hen Harrier</li></a>
-        <li>Puffin</li>
+        <li>Barn owl</li>
+        <a href="https://en.wikipedia.org/wiki/Hen_harrier"><li>Hen harrier</li></a>
+        <li>Yellowhammer</li>
+        <li>Curlew</li>
     </ul>
 ```
 

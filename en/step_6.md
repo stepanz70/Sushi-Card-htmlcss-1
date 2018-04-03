@@ -5,7 +5,7 @@ Let's add a picture!
 - Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
 
 ```html
-    <img src="RunBird.jpg" alt="A bird running" width="200px" />
+    <img src="barn-owl.jpg" alt="A barn owl" width="200px" />
 ```
 
 Here's what the result should look like:
@@ -47,7 +47,7 @@ Once you have a picture, you can **upload** the file to Trinket:
 
 ![The image icon](images/tktImageIconArrow.png)
 
-This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
+This is where you can see the pictures that you are able to use on your website. You should see the picture of the barn owl.
 
 - Click the button **Add Image** and then click **Upload**. 
 
@@ -59,7 +59,7 @@ This is where you can see the pictures that you are able to use on your website.
 
 Your picture will be uploaded and should be ready to use.
 
-- Go to the file `index.html` and find the `<img>` tag. Change the text `RunBird.jpg` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.png` instead of `.jpg`!
+- Go to the file `index.html` and find the `<img>` tag. Change the text `barn-owl.jpg` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.png` instead of `.jpg`!
 
 The text you just changed is the attribute called `src`, which tells the browser which file to display.
 

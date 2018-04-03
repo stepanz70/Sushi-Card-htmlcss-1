@@ -22,10 +22,10 @@ Many websites have a **navigation** menu to help visitors move between pages. No
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Places to visit</a></li>
-            <li><a href="music.html">Music</a></li>
-            <li><a href="food.html">Things to eat</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="birds.html">Protected Birds</a></li>
+                <li><a href="conservation.html">Conservation</a></li>
+                <li><a href="sanctuaries.html">Bird Sanctuaries</a></li>
             </ul>
         </nav>
     </header>
