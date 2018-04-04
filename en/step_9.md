@@ -14,7 +14,7 @@ The `<a> </a>` tags turn whatever is in between them into a link.
 
 That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
 
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
+- Go to Wikipedia and find a page about something on your website. I'm going to use the page about bird conservation.
 
 - Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it. 
 
@@ -55,6 +55,8 @@ You can put a link into other elements of your webpage too, such as in a paragra
     <a href="https://en.wikipedia.org/wiki/Bird_conservation">Click here</a> to read about bird conservation on Wikipedia.
   </p>
 ```
+
+![Example of a link in a paragraph element](images/egParagraphLink.png)
 
 --- challenge ---
 
