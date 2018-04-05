@@ -4,7 +4,7 @@ Learn how to code your first website!
 
 ### What you will make
 
-Build a website about your home country, like the one in the trinket below.
+Build a website like the one in the trinket below.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/7bb7dafb6e?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
