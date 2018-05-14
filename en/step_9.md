@@ -74,7 +74,7 @@ To turn a list item `<li> </li>` into a link, put all of it, including the list 
 
 --- hint ---
 
-In the following list, the 'Hen Harrier' list item has been turned into a link.
+In the following list, the 'Hen harrier' list item has been turned into a link.
 
 ```html
     <ul>
