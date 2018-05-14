@@ -5,21 +5,21 @@ Let's add a picture!
 - Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
 
 ```html
-    <img src="tito.png" alt="Tito the dog" width="100px" />
+    <img src="barn-owl.jpg" alt="A barn owl" width="200px" />
 ```
 
 Here's what the result should look like:
     
-![Image code and picture of Tito](images/egImgCodeTito.png)
+![Image code and picture of a bird](images/egImgCodeBird.png)
 
 Notice that this tag has extra bits of information inside it. They are called **attributes**.
 
-- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
+- Find the bit of code that says `width="200px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
 
 --- collapse ---
 
 ---
-title: How the `<img>` tag works
+title: How the img tag works
 ---
 
 Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page. 
@@ -47,7 +47,7 @@ Once you have a picture, you can **upload** the file to Trinket:
 
 ![The image icon](images/tktImageIconArrow.png)
 
-This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
+This is where you can see the pictures that you are able to use on your website. You should see the picture of the barn owl.
 
 - Click the button **Add Image** and then click **Upload**. 
 
@@ -59,7 +59,7 @@ This is where you can see the pictures that you are able to use on your website.
 
 Your picture will be uploaded and should be ready to use.
 
-- Go to the file `index.html` and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.jpg` instead of `.png`!
+- Go to the file `index.html` and find the `<img>` tag. Change the text `barn-owl.jpg` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.png` instead of `.jpg`!
 
 The text you just changed is the attribute called `src`, which tells the browser which file to display.
 

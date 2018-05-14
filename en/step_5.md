@@ -49,7 +49,7 @@ Each rule inside the curly braces is made up of:
   }
 ```
 
-Look at how this has changed the webpage. 
++ Look at how this has changed the webpage. 
 
 The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
 
@@ -66,8 +66,8 @@ Your heading text should be orange now, with the paragraph in purple as before.
 
 ![Result of new CSS code](images/egCssColorsFonts.png)
 
-Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
+Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/se-font-families).
 
 - Try adding a set of rules for the `<h2>` headings, using the `h2` selector. 
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
+- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/se-color-names).

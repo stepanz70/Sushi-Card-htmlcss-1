@@ -18,7 +18,7 @@ You might be wondering why you can't change the name of the `index.html` file. `
 
 --- /collapse ---
 
-- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
+- Find the file `template.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
 
 - Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
 
@@ -39,9 +39,9 @@ Now you need to make links so that you can get to each of your new pages! Let's 
 ```html
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Places to visit</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="food.html">Things to eat</a></li>
+        <li><a href="birds.html">Protected Birds</a></li>
+        <li><a href="conservation.html">Conservation</a></li>
+        <li><a href="sanctuaries.html">Bird Sanctuaries</a></li>
     </ul>
 ```
 
