@@ -33,7 +33,7 @@ Everything in between the `<body>` and `</body>` tags is your webpage.
 
 - Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
 
-- Find the code for the paragraph that says `This website is about bird conservation.` and change it so that it looks like this:
+- Find the code for the paragraph that says 'This website is about bird conservation.' and change it so that it looks like this:
 
 ```html
   <p>
