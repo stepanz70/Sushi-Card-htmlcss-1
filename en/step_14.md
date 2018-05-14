@@ -24,24 +24,29 @@ The HTML code for the table shown above looks like this:
 ```html
   <table>
     <tr>
-      <th>Name</th>
-      <th>Location</th>
-      <th>Birds found there</th>
+      <th>Name of pet</th>
+      <th>Animal</th>
+      <th>Colour</th>
     </tr>
     <tr>
-      <td>Skellig Michael</td>
-      <td>Island off coast of Kerry</td>
-      <td>Puffins</td>
+      <td>Mia</td>
+      <td>Cat</td>
+      <td>Black and fluffy</td>
     </tr>
     <tr>
-      <td>Bird Island</td>
-      <td>Strangford Lough</td>
-      <td>Cormorants</td>
+      <td>Tito</td>
+      <td>Dog</td>
+      <td>Black with brown patches</td>
     </tr>
     <tr>
-      <td>Burren Birds of Prey Centre</td>
-      <td>County Clare</td>
-      <td>Various birds of prey including eagles, hawks, owls and falcons</td>
+      <td>Honeycomb</td>
+      <td>Guinea Pig</td>
+      <td>White with orange patches</td>
+    </tr>
+    <tr>
+      <td>Alfie</td>
+      <td>Budgie</td>
+      <td>Green and yellow</td>
     </tr>
   </table>
 ```

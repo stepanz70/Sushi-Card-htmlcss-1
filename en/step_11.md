@@ -12,8 +12,7 @@ Many websites have a **navigation** menu to help visitors move between pages. No
 
 - Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
 
-![Text is not fully selected](images/egSelectedWhoops.png)
-![Fully selected text](images/egSelectedYay.png)
+![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
 
 - You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
 
@@ -23,10 +22,10 @@ Many websites have a **navigation** menu to help visitors move between pages. No
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="birds.html">Protected Birds</a></li>
-                <li><a href="conservation.html">Conservation</a></li>
-                <li><a href="sanctuaries.html">Bird Sanctuaries</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="food.html">Things to eat</a></li>
             </ul>
         </nav>
     </header>

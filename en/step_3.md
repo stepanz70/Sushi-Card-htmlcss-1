@@ -1,6 +1,6 @@
 ## Getting set up
 
-- Go to [the starter trinket](http://dojo.soy/se-html1-start){:target="_blank"}. You will see a box containing an example website project. On the right-hand side is the website, and on the left-hand side is the code that makes the website.
+- Go to [the starter trinket](http://dojo.soy/html-b-start). You will see a box containing an example website project. On the right-hand side is the website, and on the left-hand side is the code that makes the website.
 ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
 
 

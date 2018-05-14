@@ -20,7 +20,7 @@ You should see the video appear on your webpage.
 
 The same technique works for Google maps as well. Give it a go!
 
-- Go [here](http://dojo.soy/se-maps) and search for a place you want to show on your website. **Note:** do **not** share personal information such as your home address on a website!
+- Go [here](http://dojo.soy/google-maps) and search for a place you want to show on your website. **Note:** do **not** share personal information such as your home address on a website!
 
 - Click on the result, then click the **Share** button, and copy the code and add it to your website as above. 
 ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)

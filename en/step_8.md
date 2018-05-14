@@ -6,10 +6,10 @@ Now you will learn how to turn a list of items, such as "unicorns, robots, cats"
 
 ```html
     <ul>
-        <li>Barn owl</li>
-        <li>Hen harrier</li>
-        <li>Yellowhammer</li>
-        <li>Curlew</li>
+        <li>Cows</li>
+        <li>Sheep</li>
+        <li>Foxes</li>
+        <li>Bats</li>
     </ul>
 ```
 
@@ -19,7 +19,7 @@ The result should be a nice list like this:
 
 Notice that there is a separate pair of `<li> </li>` tags around each item in the list. 
 
-This is a list of some protected birds in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
+This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
 
 How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list. 
 
@@ -27,12 +27,12 @@ How about if you wanted a numbered list? It's almost the same, but instead of `<
 
 ```html
     <p>
-        Threats to birds:
+        My favourite things to eat and drink in Ireland are:
     </p>
     <ol>
-        <li>Habitat destruction</li>
-        <li>Pollution</li>
-        <li>Climate change</li>
+        <li>Tea</li>
+        <li>Crisp sandwiches</li>
+        <li>Sausages</li>
     </ol>
 ```
 
