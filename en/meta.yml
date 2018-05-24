@@ -1,19 +1,17 @@
 title: Beginner HTML/CSS
 hero_image: images/banner.png
 description: Learn to make a website
-theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: navy # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: false
 ingredient: false
 copyedit: true
-curriculum: 0, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 interests: animals, humour, space, photography, music, games
 technologies: html-css-javascript
 site_areas: coderdojo
-hardware: ''
 software: html-css-javascript
 version: 1
-last_tested: 2017-01-01
+last_tested: 2018-05-01
 steps: 
 - title: Introduction
 - title: What you will need
