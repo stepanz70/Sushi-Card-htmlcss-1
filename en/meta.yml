@@ -6,11 +6,13 @@ duration: 3
 listed: true
 ingredient: false
 copyedit: true
-interests: animals, humour, space, photography, music, games
+curriculum: ''
+interests: ''
 technologies: html-css-javascript
-site_areas: coderdojo
+site_areas: coderdojo, projects
+hardware: ''
 software: html-css-javascript
-version: 1
+version: 3.0.0
 last_tested: 2018-05-01
 steps: 
 - title: Introduction
