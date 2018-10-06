@@ -1,58 +1,58 @@
-## Creating links
+## Creazione dei link
 
-On this card you'll learn how to make a link that takes you to another page when it's clicked.
+In questa sezione imparerai come creare un link che ti porti ad un'altra pagina web una volta che lo avrai cliccato.
 
-- Add the following code to the body section of `index.html`:
+- Aggiungi il seguente codice alla sezione body del file `index.html`:
 
 ```html
   <a href="">Click here</a>
 ```
 
-The `<a> </a>` tags turn whatever is in between them into a link. 
+I tag `<a> </a>` trasformano tutto ciò che è compreso al loro interno in un link. 
  
-- Try clicking your link to see what happens. It does nothing, right?
+- Prova a vedere cosa succede se clicchi il tuo nuovo link. Niente, giusto?
 
-That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+Questo perchè l'attributo `href` al momento è vuoto. Serve che contenga l'**URL** (l'indirizzo web) della pagina alla quale vuoi collegarti.
 
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about bird conservation.
+- Vai su Wikipedia e trova una pagina riguardante l'argomento del tuo sito. Io cercherò una pagina sulla Lega Italiana per la protezione e conservazione degli uccelli.
 
-- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it. 
+- Clicca la barra degli indirizzi e selezione tutto il testo contenuto in essa. Questo è l'URL completo della pagina in cui ti trovi. Premi contemporaneamente i tasti<k>Ctrl</kdb> (or <kdb>cmd</kdb>) e <kdb>C</kdb> per copiarlo. 
 
   ![URL in address bar](images/AddressBarURL.png)
 
-- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+- Nel tuo Trinket, clicca tra le virgolette dopo `href=` e premi insieme i tasti <kdb>Ctrl</kdb> (o <kdb>cmd</kdb>) e <kdb>V</kdb> per incollare l'URL che hai copiato prima da Wikipedia. Il tuo codice dovrebbe apparire come questo:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Bird_conservation">Click here</a>
+  <a href="https://it.wikipedia.org/wiki/Lega_Italiana_Protezione_Uccelli">Clicca qui</a>
 ```
 
-You just created your first link! Click on it to see if it works now.
+Hai appena creato il tuo primo link. Fai click sopra e guarda se funziona.
 
 ![Link tag](images/egLinkTagWithURL.png)
 
 --- collapse ---
 ---
-title: Links to other websites
+title: Link ad altri siti web
 ---
-Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+Trinket a volte ha dei problemi a visualizza i link. Puoi provare link a siti diversi da Wikipedia ma potrebbero anche non funzionare. In ogni caso, se scaricherai i file del tuo progetto e li aprirai nel browser del tuo pc vedrai che funzioneranno.
 
 --- /collapse ---
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+- Prova ad inserire un'immagine tra i tag `<a> </a>` invece delle parole `Clicca qui`, in questo modo:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Bird_conservation">
-      <img src="barn-owl.jpg" alt="A barn owl" width="200px" />
+  <a href="https://it.wikipedia.org/wiki/Lega_Italiana_Protezione_Uccelli">
+  <img src="barn-owl.jpg" alt="A barn owl" width="200px" />
   </a>
 ```
 
-- Click on your picture. Do you see that it was turned into a link?
+- Clicca sull'immagine. Hai visto che si è trasformata in un link?
 
-You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+Puoi inserire un link in qualunque parte della tua pagina web, un paragrafo così come una lista. Qui c'è l'esempio di una frase con un link all'interno:
 
 ```html
   <p>
-    <a href="https://en.wikipedia.org/wiki/Bird_conservation">Click here</a> to read about bird conservation on Wikipedia.
+    <a href="https://it.wikipedia.org/wiki/Lega_Italiana_Protezione_Uccelli">Clicca qui</a> per saperne di più sulla protezione degli uccelli da Wikipedia.
   </p>
 ```
 
@@ -60,28 +60,28 @@ You can put a link into other elements of your webpage too, such as in a paragra
 
 --- challenge ---
 
-## Challenge: put a link into a list
+## Sfida: trasforma un link in una lista
 
-- See if you can make a list that contains a link inside one of the list items.
+- Prova a vedere se puoi inserire un link all'interno di un elenco al posto di un elemento della lista.
 
 --- hints ---
 
 --- hint ---
 
-To turn a list item `<li> </li>` into a link, put all of it, including the list tags, in between a pair of link tags `<a> </a>` and add the `href` attribute as you've done above.
+Per trasformare un elemento `<li> </li>` in un link, metti tutto il suo testo, incluso il tag, all'interno del tag link `<a> </a>` e aggiungi l'attributo `href` così come hai fatto sopra.
 
 --- /hint ---
 
 --- hint ---
 
-In the following list, the 'Hen harrier' list item has been turned into a link.
+Nella lista seguente, la voce 'albanella reale' è stata trasformata in un link.
 
 ```html
     <ul>
         <li>Barn owl</li>
-        <a href="https://en.wikipedia.org/wiki/Hen_harrier"><li>Hen harrier</li></a>
-        <li>Yellowhammer</li>
-        <li>Curlew</li>
+        <a href="https://it.wikipedia.org/wiki/Circus_cyaneus"><li>Albanella reale</li></a>
+        <li>Zigolo giallo</li>
+        <li>Chiurlo</li>
     </ul>
 ```
 

@@ -1,49 +1,49 @@
-## Making a list
+## Creare un elenco
 
-Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
+Adesso vedrai come trasformare una lista di oggetti, come "unicorni, robot, gatti", in un elenco dall'aspetto piacevole e con il quale successivamente farai delle cose davvero cool.
   
-- In the `index.html` file, add the following code just above the line with `</main>` on it:
+- Nel file `index.html` , aggiungi il suguente codice esattamente sotto alla riga con il tag `</main>`:
 
 ```html
     <ul>
-        <li>Barn owl</li>
-        <li>Hen harrier</li>
-        <li>Yellowhammer</li>
-        <li>Curlew</li>
+        <li>Barbagianni</li>
+        <li>Albanella reale</li>
+        <li>Zigolo giallo</li>
+        <li>Chiurlo</li>
     </ul>
 ```
 
-The result should be a nice list like this: 
+Il risultato dovrebbe essere un elenco come questo: 
 
 ![Unordered list](images/egUnorderedList.png)
 
-Notice that there is a separate pair of `<li> </li>` tags around each item in the list. 
+Fai attenzione alla presenza di una coppia di tag `<li> </li>` intorno ad ogni elemento della lista. 
 
-This is a list of some protected birds in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
+Questa è una lista di uccelli protetti in Irlanda. Puoi cambiare gli oggetti della lista con qualcosa di coerente con il tuo sito (ad esempio con gli uccelli protetti in Italia), e aggiungere un paragrafo prima della lista che descriva che tipo di elenco segue, se ti va!
 
-How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list. 
+E come fare se preferisci un elenco numerato? E' quasi la stessa cosa, invece del tag `<ul>`, userai il tag `<ol>`. In inglese un elenco numerato è detto anche **ordered list**. 
 
-- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
+- Aggiungi il seguente codice a quello creato prima - assicurati che sia **sotto** il tag `</ul>`!
 
 ```html
     <p>
-        Threats to birds:
+        Minacce per i volatili:
     </p>
     <ol>
-        <li>Habitat destruction</li>
-        <li>Pollution</li>
-        <li>Climate change</li>
+        <li>Distruzione dell'Habitat</li>
+        <li>Inquinamento</li>
+        <li>Cambiamenti climatici</li>
     </ol>
 ```
 
-Here's what it should look like now:
+E questo è il risultato finale:
 
 ![Ordered list](images/egOrderedList.png)
 
 --- challenge ---
 
-## Challenge: add style to your lists
+## Sfida: aggiungi dello stile al tuo elenco
 
-- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+- Prova ad aggiungere delle ** regole CSS** al tuo stylesheet per cambiare l'aspetto dell'elenco.
 
 --- /challenge ---
