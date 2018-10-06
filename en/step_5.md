@@ -1,9 +1,9 @@
-## Controlling how it looks
+## Controlla il look
 
-The code that describes what a website looks like is called **CSS**.
+Il linguaggio che descrive come dovrebbe apparire un sito si chiama **CSS**.
 
-- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name.
-The file contains the following text:
+- Guarda la tab sopra il pannello del codice e vai al file `styles.css` cliccando sul tab con quel nome.
+il file contiene il seguente testo:
 
 ```css
   body {
@@ -11,35 +11,35 @@ The file contains the following text:
   }
 ```
 
-- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+- Modifica il colore `white` a `LightSkyBlue` e guarda cosa accade. Il tuo sito ora dovrebbe avere unos sfondo blue! 
 
-![Example with blue background](images/egFirstCSSbluebg.png)
+![Esempio con sfondo blu](images/egFirstCSSbluebg.png)
 
 --- collapse ---
 ---
-title: How does it work?
+title: Come funziona?
 ---
 
-If you look at the top of the `index.html` file, you will see the following line:
+Se guardi in cima al file `index.html`, troverai questa riga:
 
 ```html
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name. 
+Questa riga dice al browser di cercare un file speciale chiamato `styles.css`. Questo file speciale è chiamato **foglio di stile / style sheet**. Puoi riconoscerlo dagli altri perchè il suo nome termina con `.css`. 
   
-A style sheet contains **rules** for what each element on your webpage should look like.
+Un foglio di stile contiene **regole** su come ogni elemento della pagina web dovrebbe apparire.
 
-The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
+Le parentesi graffe `{ }` e il codice tra di esse contenuto corrisponde al set di **regole CSS**. La parola `body` specifica che tutte le regole indicate sono applicate all'intero elemeno `body` del tuo sito. Il testo che appare prima della parentesi graffa è detto anche **selettore**. Quindi in questo caso questo è il selettore per l'elemento body.
 
-Each rule inside the curly braces is made up of:
-  - A **property** on the left, followed by a colon symbol `:`
-  - A **value** for the property on the right-hand side after the colon
-  - A semi-colon symbol `;` at the end
+Ogni regola all'interno delle parentesi graffe è composta da:
+  - Una **proprietà** a sinistra, seguita dal segno `:`
+  - Un **valore** da assegnare alla proprietà alla destra del segno `:`
+  - Un simbolo `;` al termine della riga
    
 --- /collapse ---
 
-- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
+- Aggiungiamo delle regole per cambiare il modo in cui viene visualizzato il testo. Aggiungi due righe nuove all'interno delle parentesi graffe:
 
 ```css
   body {
@@ -49,11 +49,11 @@ Each rule inside the curly braces is made up of:
   }
 ```
 
-+ Look at how this has changed the webpage. 
++ Ora guarda com'è cambiato l'aspetto della pagina web. 
 
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
+La proprietà `color` è sempre riferita al testo. Qui stiamo impostando il colore di tutto il testo contenuto all'interno del tag `body` e quindi di tutta la pagina.
 
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
+- Si possono anche scrivere regole differenti e separate per le intestazioni e per i paragrafi. Per le intestazioni `<h1>`, userai il selettore `h1`. Sotto la parentesi graffa che contiene le regole CSS per il body, aggiungi il seguente codice.
 
 ```css
   h1 {
@@ -62,12 +62,12 @@ The `color` property is always for text. Here, you are setting the colour of all
   }
 ```
 
-Your heading text should be orange now, with the paragraph in purple as before. 
+Il testo delle tue intestazioni ora dovrebbe apparire arancione, con il testo dei paragrafi in viola come prima. 
 
-![Result of new CSS code](images/egCssColorsFonts.png)
+![Risultato del nuovo codice CSS](images/egCssColorsFonts.png)
 
-Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/se-font-families).
+Hai visto come anche le lettere ora hanno un aspetto differente oltre al colore? Questo perchè hai cambiato il  **font family**. Puoi trovare altri caratteri [qui](http://dojo.soy/se-font-families).
 
-- Try adding a set of rules for the `<h2>` headings, using the `h2` selector. 
+- Prova ad aggiungere un set di regole al tag delle intestazioni `<h2>` usando il selettore `h2` . 
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/se-color-names).
+- Perchè non provi a fare qualche esperimento con differenti combinazioni di colori per il testo e per lo sfondo/background? Ci sono tantissimi colori disponibili. Puoi trovare una lista [qui](http://dojo.soy/se-color-names).

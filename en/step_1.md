@@ -11,10 +11,10 @@ Costruisci un sito come quello che vedi qui sotto.
   </iframe>
 </div>
 
-### Cosa imparerari
+### Cosa imparerai
 
-- Usare un editor online per creare un sito fatto con un file HTML e uno CSS
-- Creare un sito in HTML con dei titoli, dei paragrafi di testo, liste e immagini
-- Usare il codice CSS per controllare l'aspetto del tuo sito, inserendo una semplice barra menu e cambiare i colori, gli sfondi e i bordi
-- Collegare le pagine tra di loro e collegarle ad altri siti web
-- Creare una tabella che includa le intestazioni e righe multiple
+- Ad usare un editor online per creare un sito fatto con un file HTML e uno CSS
+- A creare un sito in HTML con dei titoli, dei paragrafi di testo, liste e immagini
+- Ad usare il codice CSS per controllare l'aspetto del tuo sito, inserendo una semplice barra menu e cambiare i colori, gli sfondi e i bordi
+- A collegare le pagine tra di loro e collegarle ad altri siti web
+- A creare una tabella che includa le intestazioni e righe multiple
